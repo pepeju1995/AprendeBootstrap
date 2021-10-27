@@ -13,20 +13,58 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6">
-                    <form action="#" method="post" class="m-5">
+                    <form action="#" method="post" class="border rounded bg-light m-5 p-3">
                         <div class="form-group">
-                            <label for="nombre">Nombre</label>
-                            <input type="text" name="nombre" id="nombre" class="form-control" value="Jose Juan">    
-                            <small class="form-text">Holaa</small>
+                            <label class="h4">Conocimientos de diseño Web</label>    
+                            <div class="form-check mt-2">
+                                <input type="radio" class="form-check-input" name="conocimientos" value="css" id="css">
+                                <label for="css" class="form-check-label">CSS</label>
+                            </div>
+
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" name="conocimientos" value="javascript" id="javascript">
+                                <label for="javascript" class="form-check-label">JAVASCRIPT</label>
+                            </div>
+
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" name="conocimientos" value="html5" id="html">
+                                <label for="html" class="form-check-label">HTML5</label>
+                            </div>
+                        </div> 
+                        
+                        <div class="form-group mt-3">
+                            <label class="h4">Conocimientos de diseño Web</label>    
+                            <div class="form-check mt-2">
+                                <input type="checkbox" class="form-check-input" name="conocimientos" value="css" id="css2">
+                                <label for="css" class="form-check-label">CSS</label>
+                            </div>
+
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="conocimientos" value="javascript" id="javascript2">
+                                <label for="javascript" class="form-check-label">JAVASCRIPT</label>
+                            </div>
+
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="conocimientos" value="html5" id="html2">
+                                <label for="html" class="form-check-label">HTML5</label>
+                            </div>
+                        </div> 
+
+                        <div class="form-group">
+                            <label class="h4 d-block">Genero</label>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="genero" value="masculino" id="masculino">
+                                <label for="masculino" class="form-check-label">Masculino</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" name="genero" value="femenino" id="femenino">
+                                <label for="femenino" class="form-check-label">Femenino</label>
+                            </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="apellidos">Apellidos</label>
-                            <input type="text" name="apellidos" id="apellidos" class="form-control" value="Jose Juan">    
-
-                        </div>                        
-
-                        <button class="btn btn-primary mt-4" type="submit">Guardar</button>
+                            <button class="btn btn-primary mt-4" type="submit">Guardar</button>
+                        </div>
                     </form>
                 </div>
             </div>
